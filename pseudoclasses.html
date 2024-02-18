@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .id{
+            border: 2px solid blue;
+            height: 180px;
+            width: 100px;
+            margin-left: 500px;
+            position: absolute;
+          top: 20px;
+          
+            
+            /* margin-bottom:50px ; */
+        }
+        .hi:active~.id{
+            transform: rotate(30deg);
+        }
+        .hi1:active~.id{
+            transform: rotate(10deg);
+        }
+        .hi2:active~.id{
+            transform: rotateX(45deg);
+        }
+        .hi3:active~.id{
+            transform: rotateY(100deg);
+        }
+        .hi4:active~.id{
+            transform: rotateY(90deg);
+        }
+        .hi5:active~.id{
+            transform: skew(20deg,20deg);
+        }
+        .hi6:active~.id{
+            transform: skew(30deg,30deg);
+        }
+        .hi7:active~.id{
+            transform: skewX(45deg);
+        }
+        .hi8:active~.id{
+            transform: skewY(45deg);
+        }
+        .hi9:active~.id{
+            transform: translate(20px,30px);
+        }
+        .hi10:active~.id{
+            transform: scale(2,3);
+        }
+        .hi11:active~.id{
+            transform:matrix(0.586,0.8,-0.8,0.586,0,0);
+        }
+        .hi12:active~.id{
+            transform:matrix(0.866,0.7,-0.8,0.866,0,0)
+        }
+    </style>
+</head>
+<body>
+   
+   <button class="hi">Tranform:rotate(30deg)</button><br><br>
+   <button class="hi1">Tranform:rotate(10deg)</button><br><br>
+   <button class="hi2">Tranform:rotateX(45deg)</button><br><br>
+   <button class="hi3">Tranform:rotateY(100deg)</button><br><br>
+   <button class="hi4">Tranform:rotateY(90deg)</button><br><br>
+   <button class="hi5">Tranform:skew(20deg.20deg)</button><br><br>
+   <button class="hi6">Tranform:skew(30deg.30deg)</button><br><br>
+   <button class="hi7">Tranform:skewX(45deg)</button><br><br>
+   <button class="hi8">Tranform:skewY(45deg)</button><br><br>
+   <button class="hi9">Tranform:skew(20px,30px)</button><br><br>
+   <button class="hi10">Tranform:scale(2,3)</button><br><br>
+   <button class="hi11">Tranform:matrix(0.586,0.8,-0.8,0.586,0,0)</button><br><br>
+   <button class="hi12">Tranform:matrix(0.866,0.7,-0.8,0.866,0,0)</button><br><br>
+    <div class="id">see what different transform value does with this blue DIV element</div>
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+
+</html>
